@@ -38,3 +38,7 @@ Dated log. Newest at the bottom. Each entry: what was decided and why.
   `gh-pages` branch; Pages serves that branch). Why: simple, keeps `main`
   source-only, and needs no R on GitHub's servers. A GitHub Actions render can be
   revisited once `renv` is set up. Site went live 2026-11-08.
+- **Push only after Lucas's OK.** At the end of each session Claude commits, shows a
+  short summary of what changed, and waits for OK before pushing. Backed by
+  `Bash(git push:*)` in the `ask` list of `.claude/settings.json`. Why: Lucas
+  reviews everything before it reaches the public repo.

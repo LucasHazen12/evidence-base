@@ -35,3 +35,4 @@ which is gitignored and exists only on Lucas's Mac.
 1. Update `brain/status.md`: where things stand and the next step.
 2. Append any new decisions to `brain/decisions.md` (dated, with the why).
 3. Never commit personal emails, tokens or real local paths; use placeholders.
+4. Commit, show Lucas a short summary of what changed, and push only after Lucas says OK.
