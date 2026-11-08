@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: _site
+  # Render only site pages, so CLAUDE.md and brain/ never become web pages.
+  render:
+    - index.qmd
+    - methods.qmd
+    - posts/
+
+website:
+  title: "Evidence Base"
+  description: "A living evidence base on development interventions."
+  site-url: "https://lucashazen12.github.io/evidence-base/"
+  repo-url: "https://github.com/LucasHazen12/evidence-base"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: methods.qmd
+        text: Methods
+    right:
+      - icon: github
+        href: "https://github.com/LucasHazen12/evidence-base"
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+
+execute:
+  freeze: auto

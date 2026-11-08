@@ -1,0 +1,36 @@
+---
+title: "Methods"
+---
+
+::: {.callout-note}
+This page is a draft. Sections marked *to be written* will be filled in as the
+pipeline is finalized.
+:::
+
+## Finding studies
+
+Candidate studies come from evidence repositories (the 3ie Development Evidence
+Portal, J-PAL, Innovations for Poverty Action, NBER, the AEA RCT Registry and
+OpenAlex) and from Latin American sources (the IDB, IPEA, INEGI). Search terms and
+inclusion criteria: *to be written*.
+
+## Extracting results
+
+Each study's reported effects are drafted from the paper and then independently
+re-checked against the cited page and table. Every estimate records where in the
+paper it came from.
+
+## Verification
+
+A person verifies every estimate against the paper before it is used. Only
+verified estimates enter the analyses.
+
+## Analysis
+
+Effects are pooled with random-effects meta-analysis in R (`metafor`). Effect-size
+metric, handling of multiple estimates per study, and heterogeneity reporting: *to be
+written*.
+
+## Limitations
+
+*To be written.*

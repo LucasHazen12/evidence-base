@@ -1,0 +1,32 @@
+# Papers: never commit PDFs (copyright, size)
+*.pdf
+
+# Secrets
+.env
+.env.*
+secrets/
+*.pem
+*.key
+
+# Local-only Claude Code files (machine-specific paths)
+CLAUDE.local.md
+.claude/settings.local.json
+
+# Quarto output
+_site/
+.quarto/
+
+# R / renv
+renv/library/
+renv/staging/
+renv/local/
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# macOS
+.DS_Store
+
+/.quarto/
+**/*.quarto_ipynb

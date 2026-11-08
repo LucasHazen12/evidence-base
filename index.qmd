@@ -1,0 +1,22 @@
+---
+title: "Evidence Base"
+subtitle: "A living evidence base on development interventions"
+toc: false
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  feed: true
+---
+
+What does the evidence say about development interventions, and how sure can we be?
+This site collects impact evaluations, extracts their results, checks every number
+against the source, and pools them into meta-analyses that are updated as new
+studies appear.
+
+The first topic is **cash transfers**, with a focus on **Latin America**.
+
+See [Methods](methods.qmd) for how studies are found, extracted and verified.
+
+## Posts
