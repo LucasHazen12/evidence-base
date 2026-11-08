@@ -16,7 +16,7 @@ Dated log. Newest at the bottom. Each entry: what was decided and why.
   `LucasHazen12/evidence-base`, public. Why outside Drive: Drive sync and Git fight
   over the same files.
 - **Site:** Quarto website on GitHub Pages at
-  `https://lucashazen12.github.io/evidence-base/`. Publish method still TBD.
+  `https://lucashazen12.github.io/evidence-base/`.
 - **Papers folder is `Papers` (capital P)**, inside the Drive "Evidence Base" folder,
   synced and available offline. The blueprint's lowercase `papers` is superseded.
 - **No personal emails or real local paths in committed files.** The real Drive
@@ -34,3 +34,7 @@ Dated log. Newest at the bottom. Each entry: what was decided and why.
 - **`_site/` is gitignored**: rendered output is not committed to `main`.
 - **`execute: freeze: auto`** in `_quarto.yml`. Why: posts with R code re-run only
   when their source changes, so publishing doesn't need every package installed.
+- **Publish with `quarto publish gh-pages`** (rendered locally, pushed to a
+  `gh-pages` branch; Pages serves that branch). Why: simple, keeps `main`
+  source-only, and needs no R on GitHub's servers. A GitHub Actions render can be
+  revisited once `renv` is set up. Site went live 2026-11-08.

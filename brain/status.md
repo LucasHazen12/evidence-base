@@ -12,14 +12,14 @@ _Last updated: 2026-11-08_
   the `analysis-is-lucas` rule exist as **first drafts**. Scout and extractor are
   untested.
 - Quarto website skeleton renders locally (`quarto render`).
-- Repo pushed to GitHub (public). GitHub Pages not yet enabled.
+- Repo pushed to GitHub (public). Site live on GitHub Pages at
+  https://lucashazen12.github.io/evidence-base/ (published via `quarto publish gh-pages`).
 
 ## Deliberately not done yet
 
 - `.mcp.json` / Airtable connector: step 6.
 - `renv` and R packages: Lucas does this in the first R session (creates `renv.lock`).
 - `brain/tools/newsletter.md`: after 3 posts.
-- GitHub Pages publishing: pending Lucas's go-ahead.
 
 ## Next step (step 6)
 

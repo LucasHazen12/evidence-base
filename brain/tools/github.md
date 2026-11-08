@@ -9,9 +9,10 @@
 ## Publishing
 
 - **Site URL:** https://lucashazen12.github.io/evidence-base/
-- **Pages method:** TBD (options: `quarto publish gh-pages`, which puts the rendered
-  site on a `gh-pages` branch; or a GitHub Actions workflow that renders on push).
-  Ask Lucas before enabling Pages.
+- **Pages method:** `quarto publish gh-pages`, run locally. It renders the site and
+  pushes the output to the `gh-pages` branch; Pages serves `gh-pages` at `/`.
+  `main` holds source only. Enabled 2026-11-08.
+- Don't edit `gh-pages` by hand; it is overwritten on every publish.
 
 ## Conventions
 

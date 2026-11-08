@@ -26,7 +26,10 @@ to that list.
 
 - Preview while writing: `quarto preview`
 - Build: `quarto render`
-- Publish: **TBD** (see `github.md`)
+- Publish: `quarto publish gh-pages` (renders, then pushes `_site/` to the
+  `gh-pages` branch; live in a few minutes). Commit and push `main` too, including
+  `_freeze/` once posts have R code. Non-interactive form:
+  `quarto publish gh-pages --no-prompt --no-browser`.
 
 ## R environment
 
